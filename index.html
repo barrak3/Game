@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="startAudio(audio);">
+
+  <canvas id="myCanvas" width="0" height="0" ></canvas>
+       
+    <p class="Elements">Введите размер поля для игры не менее 5 и не более 21 и нажмите Начать игру<p> 
+
+    <input type="text" id="myInp" value = 10 class="Elements">
+
+    <button id="myBtn" onclick="prepare()" class="Elements">Начать игру</button>
+   
+    <button id="myBtn2" onclick="playAudio(audio)" class="Elements">Pause audio</button> 
+
+    <label id="myLabel" class="Elements"></label>
+  
+
+  <script src="script.js"></script>
+	  	
+</body>
+</html>

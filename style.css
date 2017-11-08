@@ -1,0 +1,14 @@
+body{
+  overflow:  hidden;
+}
+
+#myCanvas{
+  float: left;
+  float:top;
+
+} 
+
+.Elements{
+  margin: 20px;
+  display: block;	
+}
